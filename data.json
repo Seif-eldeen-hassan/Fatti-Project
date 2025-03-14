@@ -1,0 +1,52 @@
+{
+    "home_info":[
+        {
+            "image": "./images/donuts 1.png",
+            "title": "Sweet indulgence Awaits",
+            "home_discription": "Welcome to our delightful world of donuts, where every bite is a celebration of flavor and creativity! From classic favorites to innovative creations, our artisan donuts are crafted with love and the finest ingredients. Whether you’re treating yourself or sharing with loved ones, our curated bundles offer the perfect assortment for every occasion. Dive into our selection and experience the joy of sweet indulgence!",
+            "home_button_text": "Donuts Bundles"
+        },
+        {
+            "top_selling_treats":[
+                {
+                    "card_title": "Kinder Bueno",
+                    "card_image": "./images/Frame 10.png",
+                    "card_discription": "A soft donut filled with hazelnut cream, topped with milk chocolate and crushed Kinder Bueno.",
+                    "price": "EGP 80"
+                },
+                {
+                    "card_title": "Olympic Chocolate Muffin [2 Pieces]",
+                    "card_image": "./images/Frame 10(1).png",
+                    "card_discription": "Moist chocolate muffins loaded with chocolate chunks.",
+                    "price": "EGP 195"
+                },
+                {
+                    "card_title": "Banana Pudding",
+                    "card_image": "./images/Frame 10(2).png",
+                    "card_discription": "Creamy banana pudding layered with fresh bananas and crunchy vanilla wafers.",
+                    "price": "EGP 85"
+                },
+                {
+                    "card_title": "Cookie Tube",
+                    "card_image": "./images/Frame 10(3).png",
+                    "card_discription": "Deliciously soft and chewy cookies, baked to perfection.",
+                    "price": "EGP 80"
+                }
+                
+            ]
+        },
+        {
+           "fatti_image": "./images/462187986_18046194080310312_7782900917815419724_n 1.png",
+           "fatti_discription":{
+                "first_discription": "Born from a passion for baking, Faties has become Egypt's most viral donut brand, captivating the nation and the world. With over 400 million views on social media in just 8 months, Faties has taken TikTok and Instagram by storm, thanks to 1,000 viral videos and posts. In 2023 alone, we sold over 100,000 donuts—all through the power of social media.",
+                "second_discription": "The journey began when Faties, at just 14 years old, discovered her love for baking in an unexpected place: the desert. What started as a personal discovery turned into a professional calling, leading her to pursue formal training in a baking and pastry program. She fell in love with the creative possibilities of the culinary world—where no one ever gets bored.",
+                "third_discription": "Upon returning to Egypt, Faties followed her dream and launched her own donut brand. Today, Faties Donuts is not just a business but a community of donut lovers, where every creation is crafted with passion, creativity, and a touch of magic."
+           }
+           
+
+
+        }
+       
+    ]
+    
+}

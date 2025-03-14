@@ -1,0 +1,401 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.navbar{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 90px;
+    padding-left: 120px;
+}
+
+.main_page{
+    width: 100%;
+    height: 3000px;
+    background-image: url("../images/Artboard\ 2.png");
+    z-index: 0;
+    position: relative;
+}
+
+.overlay::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 98, 160);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    opacity: 70%;
+    
+}
+.content{
+    position: absolute;
+    z-index: 20;
+    height: 100%;
+    width: 100%;
+}
+
+.first_section{
+    display: flex;
+    height: 1050px;
+    gap:250px;
+
+}
+
+.text_gp{
+    width: 30%;
+    text-align: center;
+    margin-top: 240px;
+}
+
+.home_title{
+    font-family: "FanCake" ;
+    font-weight: 500;
+    font-size: 52px;
+    color:white;
+}
+
+.home_para{
+    font-family: "inter" ;
+    font-weight: 500;
+    font-size: 16px;
+    color:white;
+}
+
+.main_image{
+    width:870px;
+    height: 900px;
+}
+
+.donuts_bt{
+    width:190px;
+    height: 78px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-family: "FanCake" ;
+    font-weight: 500;
+    font-size: 24px;
+    color:#C0316A;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.donuts_bt:hover{
+    color:white;
+    background-color: #C0316A;
+}
+
+
+
+.nav_button{
+    display: flex;
+    gap:10px;
+    cursor: pointer;
+}
+
+.arrow_icon{
+    width: 25px;
+    height: 25px;
+    margin-top: 31px;
+}
+
+.category{
+    font-family: "FanCake" ;
+    font-weight: 400;
+    font-size: 18px;
+    color:rgb(0, 0, 0);
+    margin-top: 33px;
+}
+
+.fati_logo{
+    width:134px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.search{
+    width: 20px;
+    height: 20px;
+    margin-top: 35px;
+}
+
+
+.second_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+
+}
+
+
+.top_seller_title{
+    font-family: "FanCake" ;
+    font-weight: 500;
+    font-size: 52px;
+    color:#FBFBFB;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.view_all_bt{
+    margin-bottom: 30px;
+    margin-left: 1460px;
+    font-family: "FanCake" ;
+    font-weight: 500;
+    font-size: 19px;
+    color:#ffffff;
+    width: 130px;
+    border-radius: 35px;
+    border: none ;
+    outline: none;
+    background-color: #C0316A;
+    padding: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.view_all_bt:hover{
+    background-color: white;
+    color:#C0316A;
+}
+
+.cards{
+    display: flex;
+    gap: 50px;
+    position: relative;
+}
+
+.card{
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 27px;
+    padding: 30px;
+    height: 370px;
+    position: relative;
+}
+
+.card_title{
+    font-family: "FanCake" ;
+    font-weight: 500;
+    font-size: 20px;
+    color:#C0316A;
+    width: 190px;
+}
+
+.card_para{
+    font-family: "Poppins" ;
+    font-weight: 500;
+    font-size: 15px;
+    color:#5A5A5A;
+    width: 190px;
+    width: 100%;
+}
+
+.card_img{
+    width: 300px;
+    height: 210px;
+}
+
+.buy_box{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 20px;
+}
+
+.buy_bt{
+    font-family: "FanCake" ;
+    font-weight: 500;
+    font-size: 20px;
+    color:#C0316A;
+    width: 110px;
+    border-radius: 35px;
+    border: 1px solid #C0316A ;
+    outline: none;
+    background-color: white;
+    height: 33px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.buy_bt:hover{
+    background-color: #C0316A;
+    color:white;
+}
+
+.price{
+    font-family: "FanCake" ;
+    font-weight: 500;
+    font-size: 20px;
+    color:#C0316A;
+    width: 190px;
+}
+
+.right_arrow{
+    width: 40px;
+    height: 40px;
+    margin-top: 200px;
+    cursor: pointer;
+}
+
+.left_arrow{
+    width: 40px;
+    height: 40px;
+    margin-top: 200px;
+    cursor: pointer;
+}
+
+.info_title{
+    margin-left: 160px;
+    margin-bottom: 40px;
+}
+
+.fati_img{
+    margin-left: 160px;
+}
+
+.fati_info{
+    display: flex;
+    gap: 50px;
+}
+
+.fati_para{
+    text-align: center;
+    width:720px;
+    font-family: "Poppins" ;
+    font-weight: 500;
+    font-size: 16px;
+    color:#ffffff;
+}
+.third_section{
+    position: relative;
+    margin-bottom: 130px;
+}
+
+.fati_arrow{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+
+.baked_white{
+    position: absolute;
+    top: 205px;
+    right: 440px;
+    z-index: 4;
+}
+
+.baked_red{
+    position: absolute;
+    top: 210px;
+    right: 440px;
+    z-index: 3;
+}
+
+.forth_section{
+    height: 320px;
+    background-color: #c8447c;
+    display: flex;
+    gap:120px;
+
+
+}
+
+.fati_logo_end{
+    margin-top: 110px;
+    margin-left: 100px;
+    width: 300px;
+    height: 130px;
+
+}
+
+.link_title{
+    font-family: "FanCake" ;
+    font-weight: 500;
+    font-size: 23px;
+    color:#ffffff;
+
+}
+
+.shop_button{
+    font-family: "Poppins" ;
+    font-weight: 400;
+    font-size: 14px;
+    color:#ffffff;
+    cursor: pointer;
+}
+
+.shop_column{
+    margin-top: 50px;
+}
+
+.location_icon{
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.location{
+    display: flex;
+    gap: 7px;
+}
+
+.social{
+    display: flex;
+    gap:7px;
+}
+
+.signup_title{
+    margin-top: 100px;
+}
+
+.email{
+    position: absolute;
+    z-index: 100;
+    border: none;
+    border-radius: 20px;
+    width: 370px;
+    height: 40px;
+    padding-left: 30px;
+    color: #C64578;
+}
+
+.input-container{
+    position: relative;
+}
+
+.send{
+    position: absolute;
+    z-index: 200;
+    right: 0px;
+    width: 70px;
+    height: 28px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.email:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+
+@font-face {
+    font-family: 'FanCake';
+    src: url('../fonts/Fancake.ttf') format('truetype');
+}
